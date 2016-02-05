@@ -21,7 +21,7 @@ body {
   left: 0;
   right: 0;
   z-index: 2;
-  transition: 500ms all ease-in-out;
+  transition: 400ms all ease-in-out;
   visibility: hidden;
   opacity: 0;
   background-color: #222;
@@ -43,4 +43,17 @@ body {
   left: 0;
   bottom: 0;
   margin: 0 0 20px 20px;
+}
+
+.olan-mills {
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+  background-image: url('olanmills.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 0;
+  bottom: 0;
+  margin: 0 20px 0px 0;
 }
