@@ -31,3 +31,15 @@ body {
   visibility: visible;
   opacity: 1.0;
 }
+
+.logo {
+  position: absolute;
+  z-index: 3;
+  width: 400px;
+  height: 100px;
+  background-image: url('photobooth.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 10px;
+  bottom: 0;
+}
